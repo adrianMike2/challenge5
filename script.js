@@ -22,7 +22,7 @@ function initializeSchedule(){
         };
         toDoItems.push(todoObj);
     });
-    localStorage.setItem("todos", json.stringify(toDoItems));
+    localStorage.setItem("todos", JSON.stringify(toDoItems));
 }
 
 function setuptimeBlock(){
